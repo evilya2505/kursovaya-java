@@ -1,0 +1,77 @@
+.form-section__radios {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section__radio {
+    display: flex;
+    gap: 5px;
+    font-family: 'Inter';
+    font-size: 15px;
+    color: black;
+}
+
+.form__section-label {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: black;  
+}
+
+.form-section__btn {
+    font-family: 'Inter';
+    font-size: 15px;
+    background-color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    gap: 5px;
+    color: white;
+}
+
+.form-section__btn:hover {
+    -webkit-transition: opacity .5s linear 0s;
+    -o-transition: opacity .5s linear 0s;
+    transition: opacity .5s linear 0s;
+    opacity: .8;
+}
+
+.form-section__file {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: white;
+    height:fit-content;
+    width: fit-content;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.form-section__file-name {
+    font-family: 'Inter';
+    font-size: 15px;
+}
+
+.form-section__file:hover {
+    -webkit-transition: opacity .5s linear 0s;
+    -o-transition: opacity .5s linear 0s;
+    transition: opacity .5s linear 0s;
+    opacity: .8;
+}
+
+.form-section__file-input[type="file"]{
+    display: none;
+}
+
+.form-section__btns {
+    display: flex;;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    border: none
+}

@@ -1,0 +1,46 @@
+.trans {
+    margin: auto;
+}
+.table-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.table__th {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.table__td {
+    font-family: 'Inter';
+    font-size: 15px;
+    color: black;
+}
+
+
+.table {
+    border-spacing: 1em 0.5em;
+}
+
+.table-section__btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.table-section__btn:hover {
+    opacity: .4;
+    -webkit-transition: all .5s linear 0s;
+    -o-transition: all .5s linear 0s;
+    transition: all .5s linear 0s;
+}
+.table-section__btn-img {
+    width: 30px;
+    height: 30px;
+}

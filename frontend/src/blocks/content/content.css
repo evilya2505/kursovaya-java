@@ -1,0 +1,17 @@
+.content {
+    border-radius: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    height: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.content__text {
+    font-family: 'Inter';
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
